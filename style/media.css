@@ -8,6 +8,13 @@
   .main .main__wrapper .main__intro p {
     font-size: 20px;
   }
+  .main.poshta__body h1 {
+    max-width: 60%;
+  }
+  .main.poshta__body .poshta__container .left__part .image__block img {
+    width: 43vw;
+    height: 28vw;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .main .main__wrapper .main__intro span.title {
@@ -24,6 +31,14 @@
   }
   .header .header__container {
     width: 90%;
+  }
+  .main.poshta__body h1 {
+    max-width: 80%;
+    font-size: 36px;
+  }
+  .main.poshta__body .poshta__container .left__part .image__block img {
+    width: 43vw;
+    height: 28vw;
   }
 }
 /* Landscape tablets and medium desktops */
@@ -50,6 +65,17 @@
   }
   .header .header__container {
     width: 90%;
+  }
+  .main.poshta__body .poshta__container .left__part .image__block img {
+    width: 43vw;
+    height: 28vw;
+  }
+  .main.poshta__body h1 {
+    max-width: 90%;
+    font-size: 32px;
+  }
+  .main.poshta__body .poshta__container .right__part p {
+    font-size: 20px;
   }
 }
 /* Portrait tablets and small desktops */
@@ -88,6 +114,26 @@
   }
   .index__footer .review .review__body .review__slider .slider__item .item__body {
     width: 60%;
+  }
+  .main.poshta__body .poshta__container .left__part .image__block img {
+    width: 43vw;
+    height: 28vw;
+  }
+  .main.poshta__body .poshta__container .left__part .image__block img {
+    width: 43vw;
+    height: 28vw;
+  }
+  .main.poshta__body h1 {
+    max-width: 90%;
+    font-size: 26px;
+  }
+  .main.poshta__body .poshta__container .right__part p {
+    font-size: 18px;
+  }
+  .main.poshta__body .poshta__container .right__part a {
+    font-size: 20px;
+    width: 180px;
+    margin: 30px 0 0 0;
   }
 }
 /* Landscape phones and portrait tablets */
@@ -160,6 +206,49 @@
   .index__footer .review .review__body .review__slider .slider__item .item__body p {
     font-size: 18px;
   }
+  .main.poshta__body h1 {
+    margin: 55px auto 0px auto;
+  }
+  .main.poshta__body .poshta__container {
+    margin: 40px 0;
+    padding-bottom: 40px;
+  }
+  .main.poshta__body .poshta__container .left__part .image__block img {
+    width: 70vw;
+    height: 48vw;
+  }
+  .main.poshta__body h1 {
+    max-width: 95%;
+    font-size: 25px;
+  }
+  .main.poshta__body .poshta__container {
+    flex-direction: column;
+  }
+  .main.poshta__body .poshta__container .left__part {
+    border: none;
+    width: 100%;
+  }
+  .main.poshta__body .poshta__container .or {
+    display: block;
+    text-align: center;
+    margin: 20px 0 30px 0;
+    font-size: 24px;
+    color: #b1b1b1;
+  }
+  .main.poshta__body .poshta__container .left__part a {
+    margin: 30px 0;
+  }
+  .main.poshta__body .poshta__container .right__part {
+    width: 100%;
+  }
+  .main.poshta__body .poshta__container .right__part p {
+    font-size: 18px;
+  }
+  .main.poshta__body .poshta__container .right__part a {
+    font-size: 20px;
+    width: 180px;
+    margin: 30px 0 0 0;
+  }
 }
 /* Portrait phones and smaller */
 @media (max-width: 580px) {
@@ -190,11 +279,11 @@
   .main .main__wrapper .main__intro p {
     width: 100%;
     margin: 0px;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
   }
   .main .main__wrapper .main__images .slider img {
-    height: 55vw;
+    height: 85vw;
   }
   .index__footer {
     margin: 50px 0;
@@ -225,5 +314,14 @@
   }
   .main .main__wrapper .main__intro h1 {
     font-size: 24px;
+  }
+  .main.poshta__body h1 {
+    font-size: 22px;
+  }
+  .main.poshta__body .poshta__container .left__part a, .main.poshta__body .poshta__container .right__part h2 {
+    font-size: 18px;
+  }
+  .main.poshta__body .poshta__container .right__part p {
+    font-size: 16px;
   }
 }

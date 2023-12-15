@@ -31,6 +31,9 @@
   height: 450px;
   border-radius: 15px;
 }
+.main.poshta__body .poshta__container .or {
+  display: none;
+}
 .main.poshta__body .poshta__container .right__part {
   width: 50%;
   text-align: center;
