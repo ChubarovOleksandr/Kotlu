@@ -1,0 +1,89 @@
+.main.promislovii__body .prom__wrapper {
+  display: flex;
+  align-items: center;
+}
+.main.promislovii__body .prom__wrapper .prom__images .prom {
+  width: 50vw;
+}
+.main.promislovii__body .prom__wrapper .prom__images .prom .slick-list {
+  overflow: hidden;
+}
+.main.promislovii__body .prom__wrapper .prom__images .prom .slick-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main.promislovii__body .prom__wrapper .prom__images .prom .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main.promislovii__body .prom__wrapper .prom__images .prom .slick-dots li {
+  list-style-type: none;
+}
+.main.promislovii__body .prom__wrapper .prom__images .prom .slick-dots li.slick-active button {
+  background: #fff;
+}
+.main.promislovii__body .prom__wrapper .prom__images .prom .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #c05805;
+  border: 2px solid #c05805;
+  margin: 15px 5px;
+}
+.main.promislovii__body .prom__wrapper .prom__images .prom .prom__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main.promislovii__body .prom__wrapper .prom__images .prom .prom__item img {
+  margin: 0 0 30px 0;
+  height: 33vw;
+}
+.main.promislovii__body .prom__wrapper .prom__text {
+  padding: 0 30px;
+  border-left: 1px solid #000;
+  height: 100%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main.promislovii__body .prom__wrapper .prom__text span {
+  color: #c05805;
+  font-weight: bold;
+}
+.main.promislovii__body .prom__wrapper .prom__text h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+.main.promislovii__body .prom__wrapper .prom__text p {
+  margin: 20px 0;
+  font-size: 21px;
+  text-align: left;
+  max-width: 80%;
+  font-family: "Montserrat", sans-serif;
+  line-height: 32px;
+}
+.main.promislovii__body .prom__wrapper .prom__text a {
+  display: inline-block;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  background: #bc4549;
+  padding: 20px 40px;
+  margin: 20px 0 0 0;
+  box-shadow: #a0a0a0 0 15px 25px;
+  transition: all 0.3s;
+}
+.main.promislovii__body .prom__wrapper .prom__text a:hover {
+  background: #9e3739;
+  transition: all 0.3s;
+  border-radius: 10px;
+  box-shadow: #a0a0a0 0 20px 25px;
+}

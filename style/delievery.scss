@@ -1,0 +1,75 @@
+.main.poshta__body {
+    h1 {
+        font-size: 40px;
+        margin: 50px auto 25px auto;
+        max-width: 50%;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+    }
+    .poshta__container {
+        margin: 70px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .left__part {
+            width: 50%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 0 25px 0;
+            border-right: 1px solid #000;
+            a {
+                display: inline-block;
+                margin: 15px 0;
+                font-size: 20px;
+                font-family: "Montserrat", sans-serif;
+            }
+            .image__block {
+                img {
+                    width: 650px;
+                    height: 450px;
+                    border-radius: 15px;
+                }
+            }
+        }
+        .right__part {
+            width: 50%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            h2 {
+                margin: 15px 0;
+                font-size: 20px;
+                font-family: "Montserrat", sans-serif;
+            }
+            p {
+                font-size: 22px;
+                margin: 15px auto;
+                width: 80%;
+                font-family: "Montserrat", sans-serif;
+            }
+            a {
+                display: inline-block;
+                width: 200px;
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
+                color: white;
+                background: #bc4549;
+                padding: 20px 40px;
+                margin: 50px 0 0 0;
+                box-shadow: #a0a0a0 0 15px 25px;
+                transition: all 0.3s;
+                &:hover {
+                    background: #9e3739;
+                    transition: all 0.3s;
+                    border-radius: 10px;
+                    box-shadow: #a0a0a0 0 20px 25px;
+                }
+            }
+        }
+    }
+}

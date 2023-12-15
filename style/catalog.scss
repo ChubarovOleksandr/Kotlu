@@ -1,0 +1,106 @@
+.catalog__body {
+    overflow: hidden;
+}
+.main.catalog__body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    .catalog__container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        .item {
+            cursor: pointer;
+            &:hover {
+                width: 150%;
+                transition: all 0.4s;
+                .item__body {
+                }
+                .item__wrapper {
+                    width: 100%;
+                    height: 100%;
+                    background: rgba($color: #000000, $alpha: 0.5);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    .item__describe {
+                        .item__text {
+                            display: block;
+                            transition: all 0.4s;
+                            transform: translate(0, 0);
+                            p {
+                            }
+                        }
+                    }
+                }
+            }
+            transition: all 0.4s;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            display: inline-block;
+            .item__body {
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: fill;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                .item__describe {
+                    overflow: hidden;
+                    .item__name {
+                        span {
+                            text-wrap: nowrap;
+                        }
+                        text-align: center;
+                        font-size: 55px;
+                        font-family: "Montserrat", sans-serif;
+                        padding: 0 0 10px 0;
+                        color: #ffffff;
+                    }
+                    .item__text {
+                        display: none;
+                        margin: 10px 0 0 0;
+                        text-align: center;
+                        transition: all 0.4s;
+                        transform: translate(0, 0);
+                        p {
+                            font-family: "Montserrat", sans-serif;
+                            font-size: 28px;
+                            margin: 4px 0;
+                            color: rgb(233, 233, 220);
+                        }
+                    }
+                }
+            }
+        }
+        .item1 {
+            .item__body {
+                background-image: url(../src/img/catalog1.jpg);
+                .item__describe .item__name {
+                    border-bottom: 4px solid #ffffff;
+                }
+            }
+        }
+        .item2 {
+            .item__body {
+                background-image: url(../src/img/catalog2.jpg);
+            }
+            .item__describe .item__name span {
+                border-bottom: 4px solid #ffffff;
+            }
+        }
+        .item3 {
+            .item__body {
+                background-image: url(../src/img/catalog3.jpg);
+                .item__describe .item__name {
+                    border-bottom: 4px solid #ffffff;
+                }
+            }
+        }
+    }
+}

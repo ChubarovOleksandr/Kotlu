@@ -1,0 +1,59 @@
+.review__body {
+    h1 {
+        font-size: 40px;
+        margin: 50px auto 25px auto;
+        max-width: 50%;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+    }
+    .review__form {
+        width: 40vw;
+        border-radius: 25px;
+        padding: 25px;
+        background: rgba(168, 168, 168, 0.2);
+        margin: 100px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        span {
+            font-family: "Montserrat", sans-serif;
+            font-size: 26px;
+            margin: 15px 0;
+        }
+        input {
+            padding: 10px 15px;
+            font-size: 16px;
+            width: 90%;
+            border-radius: 15px;
+        }
+        textarea {
+            width: 90%;
+            height: 20vh;
+            min-height: 100px;
+            resize: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            border-radius: 15px;
+        }
+        button {
+            margin: 20px 0 0 0;
+            font-size: 20px;
+            padding: 15px 25px;
+            border-radius: 15px;
+            background: #c05805;
+            color: #fff;
+            transition: all 0.3s;
+            &:hover {
+                transition: all 0.3s;
+                padding: 15px 40px;
+                background: green;
+            }
+        }
+        p {
+            a {
+                color: blue;
+            }
+        }
+    }
+}

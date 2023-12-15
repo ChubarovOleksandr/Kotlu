@@ -1,0 +1,186 @@
+.main__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.main__wrapper .main__images {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+}
+.main__wrapper .main__images .slider {
+  min-width: 0;
+}
+.main__wrapper .main__images .slider .slick-list {
+  overflow: hidden;
+}
+.main__wrapper .main__images .slider .slick-track {
+  display: flex;
+}
+.main__wrapper .main__images .slider .slider__item {
+  text-align: center;
+}
+.main__wrapper .main__images .slider img {
+  margin-top: 30px;
+  height: 35vw;
+}
+.main__wrapper .main__intro {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  font-weight: 400;
+  border-left: 1px solid #000;
+  padding-left: 30px;
+}
+.main__wrapper .main__intro span.title {
+  font-size: 75px;
+  font-weight: bold;
+  margin: 40px 0 40px 0;
+  letter-spacing: 3px;
+  color: #c05805;
+  transition: all 0.5s;
+}
+.main__wrapper .main__intro span.title:hover {
+  letter-spacing: 8px;
+  transition: all 0.5s;
+}
+.main__wrapper .main__intro h1 {
+  font-size: 40px;
+  margin: 0 0 25px 0;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+.main__wrapper .main__intro p {
+  font-size: 22px;
+  text-align: left;
+  max-width: 80%;
+  font-family: "Montserrat", sans-serif;
+  line-height: 32px;
+}
+.main__wrapper .main__intro p a {
+  border-bottom: 1px solid blue;
+  color: blue;
+  cursor: pointer;
+}
+.main__wrapper .main__intro p a:hover {
+  border-bottom: 1px solid red;
+  color: red;
+}
+.main__wrapper .main__intro a.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  background: #bc4549;
+  padding: 20px 40px;
+  margin: 25px 0 0 0;
+  box-shadow: #a0a0a0 0 15px 25px;
+  transition: all 0.3s;
+}
+.main__wrapper .main__intro a.contact:hover {
+  background: #9e3739;
+  transition: all 0.3s;
+  border-radius: 10px;
+  box-shadow: #a0a0a0 0 20px 25px;
+}
+
+.main__wrapper.dn {
+  display: none;
+}
+
+.index__footer {
+  margin: 100px 0;
+  padding: 0 0 40px 0;
+}
+.index__footer .review {
+  padding: 20px 0;
+  background: rgba(168, 168, 168, 0.2);
+}
+.index__footer .review .review__body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.index__footer .review .review__body .review__title {
+  font-size: 42px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 30px 0 50px 0;
+}
+.index__footer .review .review__body .review__slider {
+  min-width: 0;
+  max-width: 99vw;
+  position: relative;
+}
+.index__footer .review .review__body .review__slider .slick-list {
+  overflow: hidden;
+}
+.index__footer .review .review__body .review__slider .slick-track {
+  display: flex;
+}
+.index__footer .review .review__body .review__slider .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.index__footer .review .review__body .review__slider .slick-dots li {
+  list-style-type: none;
+}
+.index__footer .review .review__body .review__slider .slick-dots li.slick-active button {
+  background: #fff;
+}
+.index__footer .review .review__body .review__slider .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #c05805;
+  border: 2px solid #c05805;
+  margin: 15px 5px;
+}
+.index__footer .review .review__body .review__slider .slider__item {
+  margin: 0px 0 0px 0;
+}
+.index__footer .review .review__body .review__slider .slider__item .item__body {
+  width: 30%;
+  margin: 0 auto;
+  border: 2px solid rgb(255, 255, 255);
+  background: #fff;
+  border-radius: 25px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.index__footer .review .review__body .review__slider .slider__item .item__body img {
+  height: 80px;
+  width: 80px;
+}
+.index__footer .review .review__body .review__slider .slider__item .item__body .name {
+  margin: 15px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  color: #c05805;
+}
+.index__footer .review .review__body .review__slider .slider__item .item__body p {
+  text-align: center;
+  max-width: 90%;
+  font-size: 19px;
+}
+.index__footer .review .review__body .review__suppose {
+  font-size: 18px;
+}
+.index__footer .review .review__body .review__suppose a {
+  color: rgb(165, 2, 2);
+}
+.index__footer .review .review__body .review__suppose a:hover {
+  text-decoration: underline;
+}

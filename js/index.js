@@ -1,6 +1,6 @@
 const burger = document.querySelector('.burger img');
 const menu = document.querySelector('.main__menu');
-const main = document.querySelector('.main__wrapper');
+const main = document.querySelector('.content');
 const footer = document.querySelector('footer');
 const listItems = document.querySelectorAll('.list__item');
 

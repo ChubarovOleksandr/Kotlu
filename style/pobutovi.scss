@@ -1,0 +1,93 @@
+.main.pobutovii__body {
+    .pobut__wrapper {
+        display: flex;
+        align-items: center;
+        .pobut__images {
+            .pobut {
+                width: 50vw;
+                .slick-list {
+                    overflow: hidden;
+                }
+                .slick-track {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .slick-dots {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .slick-dots li {
+                    list-style-type: none;
+                }
+                .slick-dots li.slick-active button {
+                    background: #fff;
+                }
+                .slick-dots button {
+                    font-size: 0;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 100%;
+                    background: #c05805;
+                    border: 2px solid #c05805;
+                    margin: 15px 5px;
+                }
+                .pobut__item {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        margin: 0 0 30px 0;
+                        height: 33vw;
+                    }
+                }
+            }
+        }
+        .pobut__text {
+            padding: 0 30px;
+            border-left: 1px solid #000;
+            height: 100%;
+            min-height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            span {
+                color: #c05805;
+                font-weight: bold;
+            }
+            h1 {
+                font-family: "Montserrat", sans-serif;
+                font-size: 40px;
+            }
+            p {
+                margin: 40px 0;
+                font-size: 21px;
+                text-align: left;
+                max-width: 80%;
+                font-family: "Montserrat", sans-serif;
+                line-height: 32px;
+            }
+            a {
+                display: inline-block;
+                width: 200px;
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
+                color: white;
+                background: #bc4549;
+                padding: 20px 40px;
+                margin: 20px 0 0 0;
+                box-shadow: #a0a0a0 0 15px 25px;
+                transition: all 0.3s;
+                &:hover {
+                    background: #9e3739;
+                    transition: all 0.3s;
+                    border-radius: 10px;
+                    box-shadow: #a0a0a0 0 20px 25px;
+                }
+            }
+        }
+    }
+}

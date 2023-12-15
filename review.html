@@ -5,6 +5,7 @@
     <meta charset="utf-8" lang="uk">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/review.css">
     <link rel="stylesheet" type="text/css" href="style/media.css">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <title>СВІТЛИК - Відгук</title>
@@ -32,19 +33,41 @@
                 <a href="contact.html">Зв'язок</a>
             </div>
         </nav>
+        <div class="header__adaptive">
+            <div class="adaptive__logo">
+                <img src="src/img/logo.png" alt="logo">
+            </div>
+            <div class="burger">
+                <img src="src/img/burger.png" alt="burger">
+            </div>
+        </div>
     </header>
     <main class="main review__body">
-        <h1>Ваш відгук важливий!</h1>
-        <form action="" class="review__form">
-            <span>Ім'я</span>
-            <input type="text" name="name" min="2" max="30" placeholder="ім'я та прізвище">
-            <span>Напишіть відгук</span>
-            <textarea name="review" min="5" max="400" id="review"></textarea>
-            <button>Залишити</button>
-        </form>
+        <div class="review__container content">
+            <h1>Ваш відгук важливий!</h1>
+            <form action="" class="review__form">
+                <span>Ім'я</span>
+                <input type="text" name="name" min="2" max="30" placeholder="ім'я та прізвище">
+                <span>Напишіть відгук</span>
+                <textarea name="review" min="5" max="400" id="review"></textarea>
+                <button>Залишити</button>
+            </form>
+        </div>
+        <div class="main__menu">
+            <div class="menu__wrapper">
+                <ul class="menu__list">
+                    <li class="list__item"><a href="index.html">Головна</a></li>
+                    <li class="list__item"><a href="catalog.html">Каталог</a></li>
+                    <li class="list__item"><a href="delievery.html">Доставка</a></li>
+                    <li class="list__item"><a href="photos.html">Фото і відео</a></li>
+                    <li class="list__item"><a href="contact.html">Зв'язок</a></li>
+                </ul>
+            </div>
+        </div>
     </main>
     <footer class="footer">
     </footer>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
