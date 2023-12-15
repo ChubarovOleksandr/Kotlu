@@ -1,29 +1,233 @@
-/* Large desktops and laptops */
-@media (min-width: 1200px) {
-
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .main .main__wrapper .main__intro span.title {
+        font-size: 60px;
+    }
+    .main .main__wrapper .main__intro h1 {
+        font-size: 32px;
+    }
+    .main .main__wrapper .main__intro p {
+        font-size: 20px;
+    }
 }
-
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .main .main__wrapper .main__intro span.title {
+        font-size: 50px;
+    }
+    .main .main__wrapper .main__intro h1 {
+        font-size: 26px;
+    }
+    .main .main__wrapper .main__intro p {
+        font-size: 18px;
+    }
+    .index__footer .review .review__body .review__title {
+        font-size: 38px;
+    }
+    .header .header__container {
+        width: 90%;
+    }
+}
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    .main .main__wrapper .main__intro span.title {
+        font-size: 50px;
+    }
+    .main .main__wrapper .main__intro h1 {
+        font-size: 26px;
+    }
+    .main .main__wrapper .main__intro p {
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 90%;
+    }
+    .main .main__wrapper .main__intro span.title {
+        margin: 20px 0;
+    }
+    .index__footer {
+        margin: 60px 0;
+    }
+    .index__footer .review .review__body .review__title {
+        font-size: 34px;
+    }
+    .header .header__container {
+        width: 90%;
+    }
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-
+    .header .header__container {
+        width: 90%;
+    }
+    .main .main__wrapper .main__intro span.title {
+        font-size: 60px;
+    }
+    .main .main__wrapper {
+        flex-direction: column-reverse;
+    }
+    .main .main__wrapper .main__intro {
+        border: none;
+        align-items: center;
+    }
+    .main .main__wrapper .main__intro h1 {
+        font-size: 36px;
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+    .main .main__wrapper .main__intro p {
+        text-align: center;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .main .main__wrapper .main__intro a.contact {
+        margin: 40px 0 0 0;
+    }
+    .main .main__wrapper .main__images {
+        margin: 40px 0 0px 0;
+    }
+    .main .main__wrapper .main__images .slider img {
+        height: 45vw;
+    }
+    .index__footer .review .review__body .review__slider .slider__item .item__body {
+        width: 60%;
+    }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-
+    .header .header__container {
+        width: 90%;
+        padding: 0;
+        height: 120px;
+        display: none;
+    }
+    .header .header__adaptive {
+        display: flex;
+    }
+    .header .header__container .section a {
+        font-size: 16px;
+    }
+    .header .header__container .logo img {
+        height: 60px;
+        width: 110px;
+    }
+    .header .header__container .logo span {
+        font-size: 13px;
+    }
+    .main .main__wrapper .main__intro span.title {
+        font-size: 60px;
+    }
+    .main .main__wrapper {
+        flex-direction: column-reverse;
+    }
+    .main .main__wrapper .main__intro {
+        border: none;
+        align-items: center;
+        padding: 0;
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .main .main__wrapper .main__intro h1 {
+        font-size: 32px;
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+    .main .main__wrapper .main__intro p {
+        text-align: center;
+        max-width: 90%;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    .index__footer .review .review__body .review__title {
+        font-size: 38px;
+        margin: 20px 0 35px 0;
+    }
+    .main .main__wrapper .main__intro a.contact {
+        margin: 40px 0 0 0;
+    }
+    .main .main__wrapper .main__images {
+        margin: 40px 0 0px 0;
+    }
+    .main .main__wrapper .main__images .slider img {
+        height: 45vw;
+    }
+    .index__footer .review .review__body .review__slider .slider__item .item__body {
+        width: 80%;
+    }
+    .index__footer .review .review__body .review__slider .slider__item .item__body .name {
+        font-size: 22px;
+    }
+    .index__footer .review .review__body .review__suppose {
+        font-size: 16px;
+    }
+    .index__footer .review .review__body .review__slider .slider__item .item__body p {
+        font-size: 18px;
+    }
 }
 
 /* Portrait phones and smaller */
-@media (max-width: 480px) {
-
+@media (max-width: 580px) {
+    .header .header__container {
+        width: 95%;
+    }
+    .header .header__container {
+        height: 90px;
+    }
+    .header .header__container .logo span {
+        font-size: 11px;
+    }
+    .header .header__container .logo img {
+        height: 50px;
+        width: 80px;
+    }
+    .header .header__container .section a {
+        font-size: 12px;
+    }
+    .main .main__wrapper .main__intro span.title {
+        margin: 10px 0 30px 0;
+        font-size: 50px;
+    }
+    .main .main__wrapper .main__intro h1 {
+        font-size: 26px;
+        width: 95%;
+    }
+    .main .main__wrapper .main__intro p {
+        width: 100%;
+        margin: 0px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .main .main__wrapper .main__images .slider img {
+        height: 55vw;
+    }
+    .index__footer {
+        margin: 50px 0;
+    }
+    .index__footer .review .review__body .review__suppose {
+        max-width: 70%;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .index__footer .review .review__body .review__title {
+        font-size: 30px;
+    }
+    .index__footer .review .review__body .review__slider .slider__item .item__body .name {
+        font-size: 20px;
+    }
+    .index__footer .review .review__body .review__slider .slider__item .item__body p {
+        font-size: 16px;
+    }
 }
 
 /* Iphone 5 */
-@media (max-width: 320px) {
+@media (max-width: 480px) {
+    .header .header__container .logo img {
+        height: 50px;
+        width: 70px;
+    }
+    .header .header__container .section a {
+        font-size: 12px;
+    }
+}
 
+@media (max-width: 320px) {
 }

@@ -35,3 +35,14 @@ $(document).ready(function () {
         speed: 1000,
     });
 })
+$(document).ready(function () {
+    $('.photos').slick({
+        slidesToShow: 1,
+        dots: true,
+        arrows: true,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        speed: 1000,
+    });
+})
+

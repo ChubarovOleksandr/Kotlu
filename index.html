@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/media.css">
+	<link rel="icon" type="image/x-icon" href="./favicon.ico">
 	<title>СВІТЛИК - Головна</title>
 </head>
 
@@ -25,12 +26,20 @@
 				</a>
 			</div>
 			<div class="photo section">
-				<a href="question.html">Часті запитання</a>
+				<a href="photos.html">Фото і відео</a>
 			</div>
 			<div class="contact section">
 				<a href="contact.html">Зв'язок</a>
 			</div>
 		</nav>
+		<div class="header__adaptive">
+			<div class="adaptive__logo">
+				<img src="src/img/logo.png" alt="logo">
+			</div>
+			<div class="burger">
+				<img src="src/img/burger.png" alt="burger">
+			</div>
+		</div>
 	</header>
 	<main class="main">
 		<div class="main__wrapper">
@@ -60,13 +69,24 @@
 					Забезпечуємо зручну <a href="delievery.html">доставку</a> Новою Поштою та Делівері по всій Україні
 					(вартість уточнюється). Наші
 					фахівці готові надати
-					консультації з установки. У нас в наявності димарські труби сендвіч. З
+					консультації з установки. У нас в наявності димові труби сендвіч. З
 					більш ніж двадцятирічним досвідом у галузі, ми гарантуємо ефективну роботу котлів на одній зарядці
 					від 12 годин і
 					більше. Наш асортимент включає різноманітні конструкції, такі як шахтні, піролізні та класичні
 					моделі. Оберіть
 					надійність та якість з нашою компанією!</p>
 				<a href="contact.html" class="contact">Зв'язатись</a>
+			</div>
+		</div>
+		<div class="main__menu">
+			<div class="menu__wrapper">
+				<ul class="menu__list">
+					<li class="list__item"><a class="active" href="index.html">Головна</a></li>
+					<li class="list__item"><a href="catalog.html">Каталог</a></li>
+					<li class="list__item"><a href="delievery.html">Доставка</a></li>
+					<li class="list__item"><a href="photos.html">Фото і відео</a></li>
+					<li class="list__item"><a href="contact.html">Зв'язок</a></li>
+				</ul>
 			</div>
 		</div>
 	</main>
@@ -98,6 +118,20 @@
 							економно і якісно.</p>
 						</div>
 					</div>
+					<div class="slider__item">
+						<div class="item__body">
+							<img src="./src/img/user-icon.png" alt="user-icon">
+							<span class="name">Денис Донченко</span>
+							<p>Спасибо компании за котёл, всё соответствует описанию.</p>
+						</div>
+					</div>
+					<div class="slider__item">
+						<div class="item__body">
+							<img src="./src/img/user-icon.png" alt="user-icon">
+							<span class="name">Віктор Жуков</span>
+							<p>Спеціаліст завжди на зв'язку, допомогає по усім питанням</p>
+						</div>
+					</div>
 				</div>
 				<span class="review__suppose">Бажаєте залишити відгук? Заповніть <a href="review.html">анкету</a>, і ваш відгук буде опубліковано</span>
 			</div>
@@ -106,6 +140,7 @@
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/index.js"></script>
 </body>
 
 </html>
