@@ -21,6 +21,18 @@
   .contact-body {
     height: auto;
   }
+  .main.promislovii__body .prom__wrapper .prom__text h1 {
+    font-size: 37px;
+    padding-top: 20px;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text p {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 100%;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text {
+    padding: 0 30px 15px 30px;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .main .main__wrapper .main__intro span.title {
@@ -61,6 +73,18 @@
   .main.contact__body .contact__wrapper .right .right__body .section a img {
     width: 50px;
     height: 50px;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text h1 {
+    font-size: 36px;
+    padding-top: 20px;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text p {
+    font-size: 19px;
+    line-height: 29px;
+    max-width: 100%;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text {
+    padding: 0 30px 15px 30px;
   }
 }
 /* Landscape tablets and medium desktops */
@@ -131,6 +155,19 @@
   .main.contact__body .contact__wrapper .right .right__body .section a img {
     width: 50px;
     height: 50px;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text p {
+    font-size: 19px;
+    line-height: 29px;
+    max-width: 100%;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text {
+    padding: 0 30px 15px 30px;
   }
 }
 /* Portrait tablets and small desktops */
@@ -223,6 +260,26 @@
   .main.contact__body .contact__wrapper .right .right__body .section a img {
     width: 50px;
     height: 50px;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text p {
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 100%;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text {
+    padding: 0 10px 15px 10px;
+  }
+  .main.promislovii__body .prom__wrapper .prom__images .prom .prom__item img {
+    height: 40vw;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text a {
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    width: 175px;
   }
 }
 /* Landscape phones and portrait tablets */
@@ -394,6 +451,31 @@
   .main.contact__body .contact__wrapper .left {
     padding: 0 20px;
   }
+  .main.promislovii__body .prom__wrapper {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text {
+    align-items: center;
+    text-align: center;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text h1 {
+    margin: 20px 0;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text p {
+    text-align: center;
+    max-width: 95%;
+  }
+  .main.promislovii__body .prom__wrapper .prom__images {
+    margin: 50px 0;
+  }
+  .main.promislovii__body .prom__wrapper .prom__images .prom {
+    width: 100vw;
+  }
+  .main.promislovii__body .prom__wrapper .prom__images .prom .prom__item img {
+    height: 70vw;
+  }
 }
 /* Portrait phones and smaller */
 @media (max-width: 580px) {
@@ -447,6 +529,12 @@
   .index__footer .review .review__body .review__slider .slider__item .item__body p {
     font-size: 16px;
   }
+  .main.promislovii__body .prom__wrapper .prom__text h1 {
+    font-size: 32px;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text {
+    padding: 0 15px;
+  }
 }
 /* Iphone 5 */
 @media (max-width: 480px) {
@@ -481,5 +569,17 @@
   }
   .main.photos__body .main__footer {
     margin: 40px 0 0 0;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .main.promislovii__body .prom__wrapper .prom__text p {
+    max-width: 100%;
+    font-size: 18px;
+  }
+  .main.promislovii__body .prom__wrapper .prom__images .prom .prom__item img {
+    height: 85vw;
   }
 }
