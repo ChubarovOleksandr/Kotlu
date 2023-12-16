@@ -86,6 +86,17 @@
     .main.poshta__body .poshta__container .right__part p {
         font-size: 20px;
     }
+
+    //photos
+
+    .main.photos__body h1, .main.photos__body h2, .main.photos__body h3 {
+        font-size: 36px;
+        max-width: 80%;
+    }
+    .main.photos__body p {
+        font-size: 21px;
+        margin: 80px auto;
+    }
 }
 
 /* Portrait tablets and small desktops */
@@ -147,6 +158,18 @@
         font-size: 20px;
         width: 180px;
         margin: 30px 0 0 0;
+    }
+
+    //photos
+
+    .main.photos__body h1, .main.photos__body h2, .main.photos__body h3 {
+        font-size: 32px;
+        max-width: 90%;
+    }
+    .main.photos__body p {
+        font-size: 21px;
+        margin: 80px auto;
+        max-width: 80%;
     }
 }
 
@@ -266,6 +289,33 @@
         width: 180px;
         margin: 30px 0 0 0;
     }
+
+    //photos
+
+    .main.photos__body h1, .main.photos__body h2, .main.photos__body h3 {
+        font-size: 30px;
+        max-width: 90%;
+        margin: 40px auto 35px auto;
+    }
+    .main.photos__body p {
+        font-size: 20px;
+        margin: 60px auto;
+        max-width: 80%;
+    }
+    .main.photos__body .photos .photos__item img {
+        margin: 0;
+        height: 50vw;
+    }
+    .main.photos__body .main__footer span {
+        max-width: 85%;
+    }
+    .main.photos__body .main__footer a {
+        font-size: 22px;
+        padding: 18px 30px;
+    }
+    .main.photos__body .main__footer {
+        padding-bottom: 50px;
+    }
 }
 
 /* Portrait phones and smaller */
@@ -348,5 +398,16 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
+    .main.photos__body h1, .main.photos__body h2, .main.photos__body h3 {
+        font-size: 26px;
+    }
+    .main.photos__body p {
+        max-width: 90%;
+        font-size: 18px;
+        margin: 35px auto;
+    }
+    .main.photos__body .main__footer {
+        margin: 40px 0 0 0;
+    }
 }
