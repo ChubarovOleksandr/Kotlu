@@ -15,6 +15,12 @@
     width: 43vw;
     height: 28vw;
   }
+  .main.contact__body .contact__wrapper .left .left__body h1, .main.contact__body .contact__wrapper .right .right__body h2 {
+    font-size: 28px;
+  }
+  .contact-body {
+    height: auto;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .main .main__wrapper .main__intro span.title {
@@ -39,6 +45,22 @@
   .main.poshta__body .poshta__container .left__part .image__block img {
     width: 43vw;
     height: 28vw;
+  }
+  .main.contact__body .contact__wrapper .left .left__body h1, .main.contact__body .contact__wrapper .right .right__body h2 {
+    font-size: 28px;
+  }
+  .contact-body {
+    height: auto;
+  }
+  .contact__body {
+    margin: 0;
+  }
+  .main.contact__body .contact__wrapper .right .right__body .section a {
+    font-size: 20px;
+  }
+  .main.contact__body .contact__wrapper .right .right__body .section a img {
+    width: 50px;
+    height: 50px;
   }
 }
 /* Landscape tablets and medium desktops */
@@ -84,6 +106,31 @@
   .main.photos__body p {
     font-size: 21px;
     margin: 80px auto;
+  }
+  .main.contact__body .contact__wrapper .left .left__body h1, .main.contact__body .contact__wrapper .right .right__body h2 {
+    font-size: 24px;
+  }
+  .main.contact__body .contact__wrapper .left {
+    padding: 0 40px 0 20px;
+  }
+  .main.contact__body .contact__wrapper .right {
+    width: 50%;
+  }
+  .main.contact__body .contact__wrapper {
+    justify-content: center;
+  }
+  .contact-body {
+    height: auto;
+  }
+  .contact__body {
+    margin: 0;
+  }
+  .main.contact__body .contact__wrapper .right .right__body .section a {
+    font-size: 20px;
+  }
+  .main.contact__body .contact__wrapper .right .right__body .section a img {
+    width: 50px;
+    height: 50px;
   }
 }
 /* Portrait tablets and small desktops */
@@ -151,6 +198,31 @@
     font-size: 21px;
     margin: 80px auto;
     max-width: 80%;
+  }
+  .main.contact__body .contact__wrapper .left .left__body h1, .main.contact__body .contact__wrapper .right .right__body h2 {
+    font-size: 24px;
+  }
+  .main.contact__body .contact__wrapper .left {
+    padding: 0 40px 0 20px;
+  }
+  .main.contact__body .contact__wrapper .right {
+    width: 50%;
+  }
+  .main.contact__body .contact__wrapper {
+    justify-content: center;
+  }
+  .contact-body {
+    height: auto;
+  }
+  .contact__body {
+    margin: 0;
+  }
+  .main.contact__body .contact__wrapper .right .right__body .section a {
+    font-size: 20px;
+  }
+  .main.contact__body .contact__wrapper .right .right__body .section a img {
+    width: 50px;
+    height: 50px;
   }
 }
 /* Landscape phones and portrait tablets */
@@ -289,6 +361,38 @@
   }
   .main.photos__body .main__footer {
     padding-bottom: 50px;
+  }
+  .main.contact__body .contact__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-body {
+    height: auto;
+  }
+  .main.contact__body {
+    margin: 0;
+  }
+  .main.contact__body .contact__wrapper .left, .main.contact__body .contact__wrapper .right {
+    width: 100%;
+    border: none;
+  }
+  .main.contact__body .contact__wrapper .left .left__body h1, .main.contact__body .contact__wrapper .right .right__body h2 {
+    font-size: 26px;
+    margin: 50px 20px;
+  }
+  .main.contact__body .contact__wrapper .left .left__body h1 {
+    margin: 0 0px 50px 0px;
+  }
+  .main.contact__body .contact__wrapper .right .right__body .section a {
+    font-size: 20px;
+  }
+  .main.contact__body .contact__wrapper .right .right__body .section a img {
+    width: 50px;
+    height: 50px;
+  }
+  .main.contact__body .contact__wrapper .left {
+    padding: 0 20px;
   }
 }
 /* Portrait phones and smaller */

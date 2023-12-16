@@ -69,7 +69,8 @@
   margin: 20px 0;
 }
 .main.contact__body .contact__wrapper .right .right__body .section a {
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 24px;
 }
 .main.contact__body .contact__wrapper .right .right__body .section a img {
   margin: 0 20px 0 0;
