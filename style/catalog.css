@@ -75,6 +75,16 @@
   margin: 4px 0;
   color: rgb(233, 233, 220);
 }
+.main.catalog__body .catalog__container .item .item__body .item__describe .item__text p.last {
+  margin: 4px 0 20px 0;
+}
+.main.catalog__body .catalog__container .item .item__body .item__describe .item__text span {
+  color: rgb(233, 233, 220);
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 15px;
+}
 .main.catalog__body .catalog__container .item.active .item__body .item__describe .item__text {
   transform: translate(0, 0);
   transition: all 0.4s;
