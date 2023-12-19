@@ -19,9 +19,10 @@
         height: 28vw;
     }
 
-    //contact 
+    //contact
 
-    .main.contact__body .contact__wrapper .left .left__body h1, .main.contact__body .contact__wrapper .right .right__body h2 {
+    .main.contact__body .contact__wrapper .left .left__body h1,
+    .main.contact__body .contact__wrapper .right .right__body h2 {
         font-size: 28px;
     }
     .contact-body {
@@ -40,7 +41,7 @@
         max-width: 100%;
     }
     .main.promislovii__body .prom__wrapper .prom__text {
-        padding : 0 30px 15px 30px;
+        padding: 0 30px 15px 30px;
     }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -71,9 +72,10 @@
         height: 28vw;
     }
 
-    //contact 
+    //contact
 
-    .main.contact__body .contact__wrapper .left .left__body h1, .main.contact__body .contact__wrapper .right .right__body h2 {
+    .main.contact__body .contact__wrapper .left .left__body h1,
+    .main.contact__body .contact__wrapper .right .right__body h2 {
         font-size: 28px;
     }
     .contact-body {
@@ -102,7 +104,25 @@
         max-width: 100%;
     }
     .main.promislovii__body .prom__wrapper .prom__text {
-        padding : 0 30px 15px 30px;
+        padding: 0 30px 15px 30px;
+    }
+
+    //catalog
+
+    .main.catalog__body .catalog__container {
+        flex-direction: column;
+    }
+    .catalog__body {
+        overflow: visible;
+    }
+    .main.catalog__body .catalog__container .item {
+        min-height: 80vh;
+    }
+    .main.catalog__body .catalog__container .item:hover {
+        width: 100%;
+    }
+    .main.catalog__body .catalog__container .item .item__body {
+        background-size: cover;
     }
 }
 /* Landscape tablets and medium desktops */
@@ -147,7 +167,9 @@
 
     //photos
 
-    .main.photos__body h1, .main.photos__body h2, .main.photos__body h3 {
+    .main.photos__body h1,
+    .main.photos__body h2,
+    .main.photos__body h3 {
         font-size: 36px;
         max-width: 80%;
     }
@@ -156,9 +178,10 @@
         margin: 80px auto;
     }
 
-    //contact 
+    //contact
 
-    .main.contact__body .contact__wrapper .left .left__body h1, .main.contact__body .contact__wrapper .right .right__body h2 {
+    .main.contact__body .contact__wrapper .left .left__body h1,
+    .main.contact__body .contact__wrapper .right .right__body h2 {
         font-size: 24px;
     }
     .main.contact__body .contact__wrapper .left {
@@ -197,7 +220,33 @@
         max-width: 100%;
     }
     .main.promislovii__body .prom__wrapper .prom__text {
-        padding : 0 30px 15px 30px;
+        padding: 0 30px 15px 30px;
+    }
+    //catalog
+
+    .main.catalog__body .catalog__container {
+        flex-direction: column;
+    }
+    .catalog__body {
+        overflow: visible;
+    }
+    .main.catalog__body .catalog__container .item {
+        min-height: 80vh;
+    }
+    .main.catalog__body .catalog__container .item .item__body {
+        background-size: cover;
+    }
+    .main.catalog__body .catalog__container .item:hover {
+        width: 100%;
+    }
+    .main.catalog__body .catalog__container .item .item__wrapper {
+        width: 100%;
+        height: 100%;
+        background: rgba($color: #000000, $alpha: 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
@@ -240,7 +289,7 @@
     }
 
     //poshta
-    
+
     .main.poshta__body .poshta__container .left__part .image__block img {
         width: 43vw;
         height: 28vw;
@@ -264,7 +313,9 @@
 
     //photos
 
-    .main.photos__body h1, .main.photos__body h2, .main.photos__body h3 {
+    .main.photos__body h1,
+    .main.photos__body h2,
+    .main.photos__body h3 {
         font-size: 32px;
         max-width: 90%;
     }
@@ -274,9 +325,10 @@
         max-width: 80%;
     }
 
-    //contact 
+    //contact
 
-    .main.contact__body .contact__wrapper .left .left__body h1, .main.contact__body .contact__wrapper .right .right__body h2 {
+    .main.contact__body .contact__wrapper .left .left__body h1,
+    .main.contact__body .contact__wrapper .right .right__body h2 {
         font-size: 24px;
     }
     .main.contact__body .contact__wrapper .left {
@@ -314,7 +366,7 @@
         max-width: 100%;
     }
     .main.promislovii__body .prom__wrapper .prom__text {
-        padding : 0 10px 15px 10px;
+        padding: 0 10px 15px 10px;
     }
     .main.promislovii__body .prom__wrapper .prom__images .prom .prom__item img {
         height: 40vw;
@@ -323,6 +375,39 @@
         margin: 10px 0 0 0;
         font-size: 20px;
         width: 175px;
+    }
+
+    //catalog
+
+    .main.catalog__body .catalog__container {
+        flex-direction: column;
+    }
+    .catalog__body {
+        overflow: visible;
+    }
+    .main.catalog__body .catalog__container .item {
+        min-height: 80vh;
+    }
+    .main.catalog__body .catalog__container .item .item__body {
+        background-size: cover;
+    }
+    .main.catalog__body .catalog__container .item:hover {
+        width: 100%;
+    }
+    .main.catalog__body .catalog__container .item .item__body .item__describe .item__name {
+        font-size: 48px;
+    }
+    .main.catalog__body .catalog__container .item .item__body .item__describe .item__text p {
+        font-size: 24px;
+    }
+    .main.catalog__body .catalog__container .item .item__wrapper {
+        width: 100%;
+        height: 100%;
+        background: rgba($color: #000000, $alpha: 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
@@ -445,7 +530,9 @@
 
     //photos
 
-    .main.photos__body h1, .main.photos__body h2, .main.photos__body h3 {
+    .main.photos__body h1,
+    .main.photos__body h2,
+    .main.photos__body h3 {
         font-size: 30px;
         max-width: 90%;
         margin: 40px auto 35px auto;
@@ -470,7 +557,7 @@
         padding-bottom: 50px;
     }
 
-    //contact 
+    //contact
 
     .main.contact__body .contact__wrapper {
         flex-direction: column;
@@ -483,11 +570,13 @@
     .main.contact__body {
         margin: 0;
     }
-    .main.contact__body .contact__wrapper .left, .main.contact__body .contact__wrapper .right {
+    .main.contact__body .contact__wrapper .left,
+    .main.contact__body .contact__wrapper .right {
         width: 100%;
         border: none;
     }
-    .main.contact__body .contact__wrapper .left .left__body h1, .main.contact__body .contact__wrapper .right .right__body h2 {
+    .main.contact__body .contact__wrapper .left .left__body h1,
+    .main.contact__body .contact__wrapper .right .right__body h2 {
         font-size: 26px;
         margin: 50px 20px;
     }
@@ -505,7 +594,7 @@
         padding: 0 20px;
     }
 
-    //prom 
+    //prom
 
     .main.promislovii__body .prom__wrapper {
         flex-direction: column-reverse;
@@ -531,6 +620,39 @@
     }
     .main.promislovii__body .prom__wrapper .prom__images .prom .prom__item img {
         height: 70vw;
+    }
+
+    //catalog
+
+    .main.catalog__body .catalog__container {
+        flex-direction: column;
+    }
+    .catalog__body {
+        overflow: visible;
+    }
+    .main.catalog__body .catalog__container .item {
+        min-height: 80vh;
+    }
+    .main.catalog__body .catalog__container .item .item__body {
+        background-size: cover;
+    }
+    .main.catalog__body .catalog__container .item:hover {
+        width: 100%;
+    }
+    .main.catalog__body .catalog__container .item .item__body .item__describe .item__name {
+        font-size: 48px;
+    }
+    .main.catalog__body .catalog__container .item .item__body .item__describe .item__text p {
+        font-size: 24px;
+    }
+    .main.catalog__body .catalog__container .item .item__wrapper {
+        width: 100%;
+        height: 100%;
+        background: rgba($color: #000000, $alpha: 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
@@ -589,12 +711,45 @@
 
     //prom
 
-     .main.promislovii__body .prom__wrapper .prom__text h1 {
+    .main.promislovii__body .prom__wrapper .prom__text h1 {
         font-size: 32px;
-     }
-     .main.promislovii__body .prom__wrapper .prom__text {
+    }
+    .main.promislovii__body .prom__wrapper .prom__text {
         padding: 0 15px;
-     }
+    }
+
+    //catalog
+
+    .main.catalog__body .catalog__container {
+        flex-direction: column;
+    }
+    .catalog__body {
+        overflow: visible;
+    }
+    .main.catalog__body .catalog__container .item {
+        min-height: 80vh;
+    }
+    .main.catalog__body .catalog__container .item .item__body {
+        background-size: cover;
+    }
+    .main.catalog__body .catalog__container .item:hover {
+        width: 100%;
+    }
+    .main.catalog__body .catalog__container .item .item__body .item__describe .item__name {
+        font-size: 44px;
+    }
+    .main.catalog__body .catalog__container .item .item__body .item__describe .item__text p {
+        font-size: 22px;
+    }
+    .main.catalog__body .catalog__container .item .item__wrapper {
+        width: 100%;
+        height: 100%;
+        background: rgba($color: #000000, $alpha: 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 /* Iphone 5 */
@@ -612,24 +767,36 @@
 
     //poshta
 
-    .main.poshta__body h1{
+    .main.poshta__body h1 {
         font-size: 22px;
     }
-    .main.poshta__body .poshta__container .left__part a, .main.poshta__body .poshta__container .right__part h2 {
+    .main.poshta__body .poshta__container .left__part a,
+    .main.poshta__body .poshta__container .right__part h2 {
         font-size: 18px;
     }
     .main.poshta__body .poshta__container .right__part p {
         font-size: 16px;
     }
 
-     
+    //catalog
+
+    .main.catalog__body .catalog__container .item .item__body .item__describe .item__name {
+        font-size: 40px;
+    }
+    .main.catalog__body .catalog__container .item .item__body .item__describe .item__text p {
+        font-size: 20px;
+    }
+    .main.catalog__body .catalog__container .item .item__wrapper {
+        background: rgba($color: #000000, $alpha: 0.5);
+    }
 }
 
 @media (max-width: 400px) {
-    
     //photos
 
-    .main.photos__body h1, .main.photos__body h2, .main.photos__body h3 {
+    .main.photos__body h1,
+    .main.photos__body h2,
+    .main.photos__body h3 {
         font-size: 26px;
     }
     .main.photos__body p {

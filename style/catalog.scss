@@ -63,11 +63,11 @@
                         color: #ffffff;
                     }
                     .item__text {
-                        display: none;
+                        display: block;
                         margin: 10px 0 0 0;
                         text-align: center;
                         transition: all 0.4s;
-                        transform: translate(0, 0);
+                        transform: translate(-120%, 0);
                         p {
                             font-family: "Montserrat", sans-serif;
                             font-size: 28px;
@@ -77,6 +77,19 @@
                     }
                 }
             }
+        }
+        .item.active {
+
+            .item__body {
+
+                .item__describe {
+
+                    .item__text {
+                        transform: translate(0, 0);
+                        transition: all 0.4s;
+                    }
+                } 
+            } 
         }
         .item1 {
             .item__body {
@@ -97,6 +110,7 @@
         .item3 {
             .item__body {
                 background-image: url(../src/img/catalog3.jpg);
+                background-position: center 30%;
                 .item__describe .item__name {
                     border-bottom: 4px solid #ffffff;
                 }

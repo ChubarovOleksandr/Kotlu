@@ -63,17 +63,21 @@
   text-wrap: nowrap;
 }
 .main.catalog__body .catalog__container .item .item__body .item__describe .item__text {
-  display: none;
+  display: block;
   margin: 10px 0 0 0;
   text-align: center;
   transition: all 0.4s;
-  transform: translate(0, 0);
+  transform: translate(-120%, 0);
 }
 .main.catalog__body .catalog__container .item .item__body .item__describe .item__text p {
   font-family: "Montserrat", sans-serif;
   font-size: 28px;
   margin: 4px 0;
   color: rgb(233, 233, 220);
+}
+.main.catalog__body .catalog__container .item.active .item__body .item__describe .item__text {
+  transform: translate(0, 0);
+  transition: all 0.4s;
 }
 .main.catalog__body .catalog__container .item1 .item__body {
   background-image: url(../src/img/catalog1.jpg);
@@ -89,6 +93,7 @@
 }
 .main.catalog__body .catalog__container .item3 .item__body {
   background-image: url(../src/img/catalog3.jpg);
+  background-position: center 30%;
 }
 .main.catalog__body .catalog__container .item3 .item__body .item__describe .item__name {
   border-bottom: 4px solid #ffffff;

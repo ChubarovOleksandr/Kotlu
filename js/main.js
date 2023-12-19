@@ -27,15 +27,6 @@ $(document).ready(function () {
     });
 })
 $(document).ready(function () {
-    $('.pobut').slick({
-        dots: true,
-        arrows: false,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        speed: 1000,
-    });
-})
-$(document).ready(function () {
     $('.photos').slick({
         slidesToShow: 1,
         dots: true,
