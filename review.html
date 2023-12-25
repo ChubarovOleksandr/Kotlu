@@ -45,12 +45,12 @@
     <main class="main review__body">
         <div class="review__container content">
             <h1>Ваш відгук важливий!</h1>
-            <form action="" class="review__form">
+            <form action="php/send.php" class="review__form" method="POST" id="reviewForm" onsubmit="submitForm(event); return false;">
                 <span>Ім'я</span>
-                <input type="text" name="name" min="2" max="30" placeholder="ім'я та прізвище">
+                <input type="text" name="name" minlength="2" maxlength="30" placeholder="ім'я та прізвище">
                 <span>Напишіть відгук</span>
-                <textarea name="review" min="5" max="400" id="review"></textarea>
-                <button>Залишити</button>
+                <textarea name="review" minlength="5" maxlength="400" id="review"></textarea>
+                <button type="submit" id="submitBtn">Залишити</button>
             </form>
         </div>
         <div class="main__menu">
@@ -67,6 +67,7 @@
     </main>
     <footer class="footer">
     </footer>
+    <script src="js/leftReview.js"></script>
     <script src="js/index.js"></script>
 </body>
 

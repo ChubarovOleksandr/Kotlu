@@ -14,8 +14,6 @@
             &:hover {
                 width: 150%;
                 transition: all 0.4s;
-                .item__body {
-                }
                 .item__wrapper {
                     width: 100%;
                     height: 100%;
@@ -29,8 +27,7 @@
                             display: block;
                             transition: all 0.4s;
                             transform: translate(0, 0);
-                            p {
-                            }
+                            opacity: 1;
                         }
                     }
                 }
@@ -64,6 +61,7 @@
                     }
                     .item__text {
                         display: block;
+                        opacity: 0;
                         margin: 10px 0 0 0;
                         text-align: center;
                         transition: all 0.4s;
@@ -89,17 +87,14 @@
             }
         }
         .item.active {
-
             .item__body {
-
                 .item__describe {
-
                     .item__text {
                         transform: translate(0, 0);
                         transition: all 0.4s;
                     }
-                } 
-            } 
+                }
+            }
         }
         .item1 {
             .item__body {

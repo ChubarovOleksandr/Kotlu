@@ -103,6 +103,17 @@
   .main.catalog__body .catalog__container .item .item__body {
     background-size: cover;
   }
+  .main.catalog__body .catalog__container .item .item__body .item__describe .item__text {
+    opacity: 1;
+  }
+  .review__body h1 {
+    font-size: 32px;
+    margin: 40px auto 0 auto;
+  }
+  .review__body .review__form {
+    margin: 40px auto;
+    width: 70vw;
+  }
 }
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -212,6 +223,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .review__body h1 {
+    font-size: 32px;
+    margin: 40px auto 0 auto;
+  }
+  .review__body .review__form {
+    margin: 40px auto;
+    width: 70vw;
   }
 }
 /* Portrait tablets and small desktops */
@@ -357,6 +376,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .review__body h1 {
+    font-size: 30px;
+    margin: 40px auto 0 auto;
+  }
+  .review__body .review__form {
+    margin: 40px auto;
+    width: 90vw;
+  }
+  .review__body .review__form span {
+    font-size: 24px;
   }
 }
 /* Landscape phones and portrait tablets */
@@ -587,6 +617,18 @@
     align-items: center;
     flex-direction: column;
   }
+  .review__body h1 {
+    font-size: 30px;
+    margin: 40px auto 0 auto;
+    max-width: 100%;
+  }
+  .review__body .review__form {
+    margin: 40px auto;
+    width: 90vw;
+  }
+  .review__body .review__form span {
+    font-size: 24px;
+  }
 }
 /* Portrait phones and smaller */
 @media (max-width: 580px) {
@@ -734,5 +776,17 @@
   }
   .main.promislovii__body .prom__wrapper .prom__images .prom .prom__item img {
     height: 85vw;
+  }
+  .review__body h1 {
+    font-size: 26px;
+    margin: 40px auto 0 auto;
+    max-width: 100%;
+  }
+  .review__body .review__form {
+    margin: 40px auto;
+    width: 90vw;
+  }
+  .review__body .review__form span {
+    font-size: 20px;
   }
 }

@@ -37,6 +37,7 @@
   display: block;
   transition: all 0.4s;
   transform: translate(0, 0);
+  opacity: 1;
 }
 .main.catalog__body .catalog__container .item .item__body {
   width: 100%;
@@ -64,6 +65,7 @@
 }
 .main.catalog__body .catalog__container .item .item__body .item__describe .item__text {
   display: block;
+  opacity: 0;
   margin: 10px 0 0 0;
   text-align: center;
   transition: all 0.4s;
